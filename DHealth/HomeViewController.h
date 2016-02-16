@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+@interface HomeViewController : UITableViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
 @property (strong, nonatomic) IBOutlet UIImageView *profileView;
 
 @end
